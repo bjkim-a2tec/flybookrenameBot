@@ -1,4 +1,4 @@
-## Rename Bot - Clone of  [AnyDLBot](https://telegram.dog/AnyDLBot)
+## Rename Bot - [BuGGStreAM](https://telegram.dog/MovieLoverzRobot)
 ---
 
 An Open Source Rename Telegram RoBot
