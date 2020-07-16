@@ -105,6 +105,7 @@ async def save_photo(bot, update):
             file_name=download_location
         )
     else:
+        return
         # received single photo
         download_location = Config.DOWNLOAD_LOCATION + "/" + str(update.from_user.id) + ".jpg"
         await bot.download_media(
