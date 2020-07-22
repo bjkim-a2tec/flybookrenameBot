@@ -24,8 +24,8 @@ class Translation(object):
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     HELP_USER = """안녕하세요. 리넴봇입니다..
     
-1. Send me any Telegram File.
-2. Reply to that message to /rm new name.extension.
+1. 아무 Telegram File이나 저에게 보내보세요.
+2. 보낸 파일에 답변을 하시면서 명령어로 /rm new name.extension 을 해보세요
    
 
 --------
