@@ -135,11 +135,11 @@ async def rename_doc(bot, update):
                 message_id=a.message_id,
                 disable_web_page_preview=True
             )
-            await bot.delete_messages(
-                chat_id=update.chat.id,
-                message_ids=update.reply_to_message.message_id,
-                revoke=True
-            )
+            #await bot.delete_messages(
+            #    chat_id=update.chat.id,
+            #    message_ids=update.reply_to_message.message_id,
+            #    revoke=True
+            #)
     else:
         await bot.send_message(
             chat_id=update.chat.id,
